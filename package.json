@@ -1,0 +1,24 @@
+{
+  "name": "IERS",
+  "version": "1.0.0",
+  "description": "IERS BAck End",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "author": "Sk. Sami-Al-Jabar",
+  "license": "ISC",
+  "dependencies": {
+    "compromise": "^11.14.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.0.0",
+    "morgan": "^1.9.1",
+    "mssql": "^4.2.1",
+    "multer": "^1.4.0",
+    "mysql": "^2.18.1",
+    "wink-pos-tagger": "^2.2.2"
+  }
+}
